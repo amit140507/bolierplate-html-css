@@ -1,0 +1,62 @@
+
+.ind-services-page{
+    display: flex;
+}
+.ind-services-page:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.services-image img{
+    max-width:100%;
+    height: auto;
+
+}
+
+.ind-services-page{
+    margin-block:5%;
+}
+
+.content-service-page {
+    align-self: center;
+    padding-inline: 3%;
+}
+
+.content-service-page h3 {
+    margin-block:10px;
+}
+.content-service-page  p{
+    word-spacing:4px;
+}
+.service-welcome-image {
+    background-image: url(/assets/images/for-programs.jpg);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:800px) { 
+    .ind-services-page:nth-child(even){
+        flex-direction: column;
+    }
+    .ind-services-page{
+        flex-direction: column;
+    }
+    .services-image img{
+        max-width:100%;
+        height: 50vh;
+    }
+    .services-image {
+        text-align: center;
+    }
+    .ind-services-page {
+        margin-block: 20%;
+    }
+    .content-service-page h3 {
+        text-align: center;
+    }
+
+}

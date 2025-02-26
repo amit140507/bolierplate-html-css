@@ -1,0 +1,69 @@
+/* about page css */
+.training-philisophy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8%;
+}
+
+.ind-philosophy {
+    flex-basis: 350px;
+    text-align: center;
+}
+
+section.training-philisophy-section div h2 {
+    text-align: center;
+    margin-block: 50px;
+}
+
+section.training-philisophy-section {
+    background-color: var(--fgg);
+}
+
+.ind-philosophy {
+    text-align: center;
+    margin-block: 5%;
+}
+
+.about-intro-section {
+    text-align: center;
+}
+
+.about-intro-section p {
+    margin-block: 30px;
+}
+
+.about-welcome-image{
+    background-image: url(/assets/images/for-faq.jpg);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: top center;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1024px) {
+    .about-welcome-image {
+        height:auto;
+        min-height: 200px;
+    }
+  }
+
+.about-page-profile-image img{
+    max-width: 100%;
+}  
+.about-intro-section{
+    display: flex;
+}
+@media (max-width: 1024px) {
+    .about-intro-section {
+      flex-direction: column;
+    }
+  }
+.about-page-content{
+    margin-inline: 5%;
+    align-self: center;
+}
+
+/* aboutpage css */
