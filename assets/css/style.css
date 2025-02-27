@@ -18,37 +18,40 @@
     --clr-theme-5:hsl(200, 59%, 36%);
 
 
+
+
     /* https://www.realtimecolors.com/?colors=0f1316-f4f7fa-4498ce-8bc9f1-43b3fd&fonts=Poppins-Poppins */
     /* Fonts */
-    --base-font: 'IBM Plex Sans', sans-serif;
-    --accent-font: 'IBM Plex Sans Condensed', sans-serif;
+    --base-font: 'Poppins', sans-serif;
+    --accent-font: 'PT Serif', serif;
 
-    --font-size-300: clamp(1.125rem, 1.0815rem + 0.2174vi, 1.25rem);
-    --font-size-400: clamp(1.35rem, 1.2761rem + 0.3696vi, 1.5625rem);
-    --font-size-500: clamp(1.62rem, 1.5041rem + 0.5793vi, 1.9531rem);
-    --font-size-600: clamp(1.944rem, 1.771rem + 0.8651vi, 2.4414rem);
-    --font-size-700: clamp(2.3328rem, 2.0827rem + 1.2504vi, 3.0518rem);
-    --font-size-800: clamp(2.7994rem, 2.4462rem + 1.7658vi, 3.8147rem);
+    --text: hsl(191, 28%, 8%);
+    --background: hsl(197, 47%, 97%);
+    --primary: hsl(191, 59%, 53%);
+    --secondary: hsl(190, 73%, 72%);
+    --accent: hsl(191, 89%, 65%);
 
-    /* Step -1: 15px → 16px */
-    --step--1: clamp(0.9375rem, 0.925rem + 0.0625vi, 1rem);
-    /* Step 0: 18px → 20px */
-    --step-0: clamp(1.125rem, 1.1rem + 0.125vi, 1.25rem);
-    /* Step 1: 21.6px → 25px */
-    --step-1: clamp(1.35rem, 1.3075rem + 0.2125vi, 1.5625rem);
-    /* Step 2: 25.92px → 31.25px */
-    --step-2: clamp(1.62rem, 1.5534rem + 0.3331vi, 1.9531rem);
-    /* Step 3: 31.104px → 39.0625px */
-    --step-3: clamp(1.944rem, 1.8445rem + 0.4974vi, 2.4414rem);
-    /* Step 4: 37.3248px → 48.8281px */
-    --step-4: clamp(2.3328rem, 2.189rem + 0.719vi, 3.0518rem);
-    /* Step 5: 44.7898px → 61.0352px */
-    --step-5: clamp(2.7994rem, 2.5963rem + 1.0153vi, 3.8147rem);
+    /* Step 0: 16px → 16px */
+    --step-0: clamp(1rem, 1rem + 0vw, 1rem);
+    /* Step 1: 18px → 19.2px */
+    --step-1: clamp(1.125rem, 1.101rem + 0.12vw, 1.2rem);
+    /* Step 2: 20.25px → 23.04px */
+    --step-2: clamp(1.2656rem, 1.2098rem + 0.279vw, 1.44rem);
+    /* Step 3: 22.7813px → 27.648px */
+    --step-3: clamp(1.4238rem, 1.3265rem + 0.4867vw, 1.728rem);
+    /* Step 4: 25.6289px → 33.1776px */
+    --step-4: clamp(1.6018rem, 1.4508rem + 0.7549vw, 2.0736rem);
+    /* Step 5: 28.8325px → 39.8131px */
+    --step-5: clamp(1.802rem, 1.5824rem + 1.0981vw, 2.4883rem);
+    /* Step 6: 32.4366px → 47.7757px */
+    --step-6: clamp(2.0273rem, 1.7205rem + 1.5339vw, 2.986rem);
+    /* Step 7: 36.4912px → 57.3309px */
+    --step-7: clamp(2.2807rem, 1.8639rem + 2.084vw, 3.5832rem);
 
     /* clamp calc */
-    --fluid-16-48: clamp(1rem, 0.6rem + 2vi, 3rem);
+    --fluid-16-48: clamp(1rem, 0.36rem + 3.2vw, 3rem);
 
-    --fluid-16-16: clamp(1rem, 1rem + 0vi, 1rem);
+    --fluid-16-16: clamp(1rem, 1rem + 0vw, 1rem);
 }
 
 
@@ -1967,100 +1970,6 @@ margin-block: 2em;
 
 
 
-
-
-
-
-
-/*
-//////////////////////////////////////////////////////////////////////
-DESKTOP CSS
-//////////////////////////////////////////////////////////////////////
-*/
-
-
-/* BODY */
-
-/* BODY */
-
-/* HEADER */
-
-
-
-/* HEADER */
-
-
-/* FOOTER */
-
-
-
-/* FOOTER */
-
-/* HOME PAGE */
-
-/* ABOUT PAGE */
-
-/* PLANS AND PRICING PAGE */
-
-/* SERVICES PAGE */
-
-/* TRANSFORMATIONS PAGE */
-
-/* CONTACT PAGE */
-
-/* FAQ PAGE */
-
-/* GET STARTED PAGE */
-
-/* PRIVACY POLICY PAGE */
-
-/* TERMS AND CONDITIONS PAGE */
-
-/* DISCLAIMER PAGE */
-
-
-/*
-//////////////////////////////////////////////////////////////////////
-RESPONSIVE CSS
-//////////////////////////////////////////////////////////////////////
-*/
-
-/* BODY */
-
-/* BODY */
-
-/* HEADER */
-
-
-
-/* HEADER */
-
-
-/* FOOTER */
-
-
-
-/* FOOTER */
-
-
-/* HOME PAGE */
-
-/* ABOUT PAGE */
-
-/* PLANS AND PRICING PAGE */
-
-/* SERVICES PAGE */
-
-/* TRANSFORMATIONS PAGE */
-
-/* CONTACT PAGE */
-
-/* FAQ PAGE */
-
-/* GET STARTED PAGE */
-
-/* PRIVACY POLICY PAGE */
-
-/* TERMS AND CONDITIONS PAGE */
-
-/* DISCLAIMER PAGE */
+section{
+    display: none;
+}

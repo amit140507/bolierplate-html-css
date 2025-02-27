@@ -10,16 +10,14 @@
     font: inherit;
 }
 html {
-    color-scheme: dark light;
-    font-family:
-
-    /* system-ui,
-    'Segoe UI', */
-    /* var(--base-font), */
-    Calibre,
-    poppins,
+    /* color-scheme: dark light; */
+    font-family: 
+    var(--base-font),
+    Montserrat, 
+    Outfit,
+    Poppins,
+    /* Helvetica, */
     Roboto,
-    Helvetica,
     Arial,
     sans-serif,
     'Apple Color Emoji',
