@@ -291,14 +291,14 @@ a, button{
 /* backrgound color and color for all elements */
 
 header{
-    background-color: var(--clr-theme-3);
+    background-color: var(--blue-700);
 }
 footer{
-    background-color: var(--clr-theme-3);
+    background-color: var(--blue-gray-50);
 }
 
 a.anchor{
-    color: var(--clr-theme-3);
+    color: var(--blue-700);
 }
 a.anchor:hover, a.anchor:focus{
     color: var(--clr-theme-5);
